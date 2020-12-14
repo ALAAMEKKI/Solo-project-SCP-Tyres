@@ -1,0 +1,61 @@
+/*Top*/
+button {
+    
+    
+    padding: 10px;
+    background: yellow;
+    color: black;
+  }
+
+  #input {
+    padding: 10px;
+    height: 13px;
+  }
+
+
+
+.topnav a.active {
+    background-color: yellow;
+    color: black;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 100%;
+    border: solid 3px yellow;
+    
+  }
+
+  .topnav a {
+    float: right;
+    color: yellow;
+    font-family: "Hind Siliguri";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    font-style: normal;
+    font-weight: 100;
+    margin-bottom: 50px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+
+  body {
+      background-color: #0b0b0c;
+      
+  }
+
+  .slides{
+    margin: auto;
+    width: 6%
+  }
+ 
