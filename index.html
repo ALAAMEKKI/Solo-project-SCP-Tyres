@@ -12,16 +12,21 @@
 </head>
 
 <body>
-    <!--Top-->
+    <!--Top +searchbar-->
     <div class="topnav">
         <a href="#contact">Contact</a>
         <a href="#brands">Brands</a>
         <a href="#ourparners">Our Partners</a>
         <a class="active" href="#home">Home</a>
-        
+        <!--search bar-->
         <input type="text" placeholder="Search.." name="search2" id="input">
         <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
       
+    
+    
+    
+    
     <!--Slider-->  
     <div class = 'slider'>
 
@@ -29,34 +34,31 @@
         <div class ='slide_first'>
             <img src="images/1.jpg" class ='center'>
                 <div class = 'slides'>
-                    <input type="radio" id = 'radio1'>
-                    <input type="radio" id = 'radio2'>
-                    <input type="radio" id = 'radio3'>    
+                    <input type="radio" name="radio_btn" id = 'radio1'>
+                    <input type="radio" name="radio_btn" id = 'radio2'>
+                    <input type="radio" name="radio_btn" id = 'radio3'>    
                 </div>
-        </div>
+        
             <div class ='slide_first'>
                 <img src="images/2.jpg" class ='center'>
             </div>
             <div class ='slide_first'>
                 <img src="images/3.jpg" class ='center'>
             </div>
-
-        <!--navigation -->
-
-
+        </div>
 
        <!--navigation label-->
        <div class = navigation>
-           <label for="radio1"></label>
-           <label for="radio2"></label>
-           <label for="radio3"></label> 
+           <label for="radio1" class="manual-btn"></label>
+           <label for="radio2" class="manual-btn"></label>
+           <label for="radio3" class="manual-btn"></label> 
 
 
        </div>
     </div>
        
        
-    </div>
+    
 
     
 
