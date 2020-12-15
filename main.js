@@ -4,7 +4,7 @@ $(document).ready(function () {
     //$('body').append('<div><p>hi</p></div>')
     ////////////////////////////////////////////////////////////////////////////////////////////////
     //slides:
-    $('#row').hide()
+    //$('#row').hide()
     $('.contact-body').hide()
 
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
 
  $('#home').click(function () {
         $('.contact-body').hide()
-        $('#row').hide()
+        $('#row').show()
         $('.slider').show()
     })
 
