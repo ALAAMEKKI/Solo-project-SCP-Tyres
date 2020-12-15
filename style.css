@@ -177,3 +177,29 @@ button {
 
 
  /* Pricing style////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ #rech{
+  height: 25px;
+  border-radius: 8px;
+   
+  background: yellow;
+  color: black;
+  
+}
+#rech:hover {
+  background-color: black;
+  color: yellow;
+}
+
+#edit-dimensions{
+  background: black;
+  color: yellow;
+}
+
+#searching{
+  color: yellow;
+  font-family: "Hind Siliguri";
+  text-decoration: none;
+  font-size:20px;
+  font-style: normal;
+  font-weight: 100;
+}
