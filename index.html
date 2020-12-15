@@ -14,10 +14,10 @@
 <body>
     <!--Top +searchbar-->
     <div class="topnav">
-        <a href="#contact">Contact</a>
+        <a id='contact' href="#contact">Contact</a>
         <a href="#brands">Brands</a>
         <a href="#ourparners">Our Partners</a>
-        <a class="active" href="#home">Home</a>
+        <a id = 'home' class="active" href="#home">Home</a>
         <!--search bar-->
         <input type="text" placeholder="Search.." name="search2" id="input">
         <button type="submit"><i class="fa fa-search"></i></button>
@@ -32,21 +32,18 @@
 
 
         <div class ='slide_first'>
-            <img src="images/1.jpg" class ='center'>
+            <img src="images/1.jpg" id="img1" class ='center'>
                 <div class = 'slides'>
                     <input type="radio" name="radio_btn" id = 'radio1'>
                     <input type="radio" name="radio_btn" id = 'radio2'>
                     <input type="radio" name="radio_btn" id = 'radio3'>    
+                    <input type="radio" name="radio_btn" id = 'radio4'>  
+                    <input type="radio" name="radio_btn" id = 'radio5'>
                 </div>
         
-            <div class ='slide_first'>
-                <img src="images/2.jpg" class ='center'>
-            </div>
-            <div class ='slide_first'>
-                <img src="images/3.jpg" class ='center'>
-            </div>
+                
         </div>
-
+    
        <!--navigation label-->
        <div class = navigation>
            <label for="radio1" class="manual-btn"></label>
@@ -57,8 +54,36 @@
        </div>
     </div>
        
-       
-    
+  <!--Contact button-->     
+<div class = "contact-body">
+  <h3>Contact Us</h3>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input class='contact' type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">&nbsp;Last Name</label>
+      <input class='contact' type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      
+      <label for="email"><br><br>Email</label>
+      <input class='contact' type="text" id="email" name="youremail" placeholder="Your Email..">
+  
+      <label for="city"><br><br>City</label>
+      <select id="city" name="city">
+        <option value="bizerte">Bizerte</option>
+        <option value="sousse">Sousse</option>
+        <option value="tunis">Tunis</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input class='contact' type="submit" value="Submit">
+    </form>
+
+</div>
 
     
 
