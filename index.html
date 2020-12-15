@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,78 +17,104 @@
     <div class="topnav">
         <a id='contact' href="#contact">Contact</a>
         <a href="#brands">Brands</a>
-        <a href="#ourparners">Our Partners</a>
-        <a id = 'home' class="active" href="#home">Home</a>
+        <a id='ourpartners' href="#ourpartners">Our Partners</a>
+        <a id='home' class="active" href="#home">Home</a>
         <!--search bar-->
         <input type="text" placeholder="Search.." name="search2" id="input">
         <button type="submit"><i class="fa fa-search"></i></button>
     </div>
-      
-    
-    
-    
-    
-    <!--Slider-->  
-    <div class = 'slider'>
 
 
-        <div class ='slide_first'>
-            <img src="images/1.jpg" id="img1" class ='center'>
-                <div class = 'slides'>
-                    <input type="radio" name="radio_btn" id = 'radio1'>
-                    <input type="radio" name="radio_btn" id = 'radio2'>
-                    <input type="radio" name="radio_btn" id = 'radio3'>    
-                    <input type="radio" name="radio_btn" id = 'radio4'>  
-                    <input type="radio" name="radio_btn" id = 'radio5'>
-                </div>
-        
-                
+
+
+
+    <!--Slider-->
+    <div class='slider'>
+
+
+        <div class='slide_first'>
+            <img src="images/1.jpg" id="img1" class='center'>
+            <div class='slides'>
+                <input type="radio" name="radio_btn" id='radio1'>
+                <input type="radio" name="radio_btn" id='radio2'>
+                <input type="radio" name="radio_btn" id='radio3'>
+                <input type="radio" name="radio_btn" id='radio4'>
+                <input type="radio" name="radio_btn" id='radio5'>
+            </div>
+
+
         </div>
-    
-       <!--navigation label-->
-       <div class = navigation>
-           <label for="radio1" class="manual-btn"></label>
-           <label for="radio2" class="manual-btn"></label>
-           <label for="radio3" class="manual-btn"></label> 
+
+        <!--navigation label-->
+        <div class=navigation>
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
 
 
-       </div>
+        </div>
     </div>
-       
-  <!--Contact button-->     
-<div class = "contact-body">
-  <h3>Contact Us</h3>
 
-  <div class="container">
-    <form action="/action_page.php">
-      <label for="fname">First Name</label>
-      <input class='contact' type="text" id="fname" name="firstname" placeholder="Your name..">
+    <!--Contact button-->
+    <div class="contact-body">
+        <h3>Contact Us</h3>
 
-      <label for="lname">&nbsp;Last Name</label>
-      <input class='contact' type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name :</label>
+                <input class='contact' type="text" id="fname" name="firstname" placeholder="Your name..">
 
-      
-      <label for="email"><br><br>Email</label>
-      <input class='contact' type="text" id="email" name="youremail" placeholder="Your Email..">
-  
-      <label for="city"><br><br>City</label>
-      <select id="city" name="city">
-        <option value="bizerte">Bizerte</option>
-        <option value="sousse">Sousse</option>
-        <option value="tunis">Tunis</option>
-      </select>
-  
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input class='contact' type="submit" value="Submit">
-    </form>
-
-</div>
-
-    
+                <label for="lname">&nbsp;Last Name :</label>
+                <input class='contact' type="text" id="lname" name="lastname" placeholder="Your last name..">
 
 
-<script src = 'main.js'></script>
+                <label for="email"><br><br>Email :</label>
+                <input class='contact' type="text" id="email" name="youremail" placeholder="Your Email..">
+
+                <label for="city"><br><br>City :</label>
+                <select id="city" name="city">
+                    <option value="bizerte">Bizerte</option>
+                    <option value="sousse">Sousse</option>
+                    <option value="tunis">Tunis</option>
+                </select>
+
+                <label for="subject">Subject :</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input class='contact' type="submit" value="Submit">
+            </form>
+
+        </div>
+    </div>
+
+        <!--Our partner button-->
+
+        <div id="row">
+            <div class="column">
+                
+                
+                <a href="https://www.pneu-amine.com.tn/" target="_blank"><img src="/images/partnersimg/stip.jpg" style="width:25%" height="120px" ></a>
+                <p>This Tunisian tire industry company was created on July 21, 1980.<br>
+                    STIP manufactures and the markets tires and is the only tire manufacturer in Tunisia.<br>
+                    The company has two production units: a factory in M'saken and a factory in Menzel Bourguiba.<br>
+                    The production capacity is about 650,000 tires per year or 15,100 tons, expandable to 1 million tires per year.
+                </p>
+                
+                <a href="http://www.scp.com.tn/" target="_blank"><img src="/images/partnersimg/bridgestone.jpg" style="width:25%" height="120px" ></a>
+                <p>The "Société Commerciale de Pneumatiques SCP".<br>
+                    The confidence of its users through the quality of its service.<br>
+                    The availability of a range. complete with tires and various accessories ...<br>
+                    Leader in the import and distribution of Bridjestone tires in Tunisia, since its creation in 1972.
+                </p>
+
+          
+            </div>
+        </div>
+
+
+
+
+        <script src='main.js'></script>
 </body>
+
 </html>

@@ -1,4 +1,4 @@
-/*Top*/
+/*Top////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 button {
     
     
@@ -63,8 +63,13 @@ button {
     margin: auto;
     width: 9%
   }
+  .slider{
+    text-align: center;
+    margin: auto;
+
+  }
  
-  /*contact form*/
+  /*contact form //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
   .contact-body{
@@ -104,6 +109,7 @@ button {
     border-radius: 5px;
     background-color: yellow;
     padding: 20px;
+    font-family: "Hind Siliguri";
   }
 
   .contact{
@@ -113,3 +119,34 @@ button {
   #email {
     width: 260px;
   }
+  /* Our partner div style////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  .column img {
+    border-radius: 8px;
+    margin-top: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+    
+  }
+  .column p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: yellow;
+    font-family: "Hind Siliguri";
+}
+
+.column  {
+ text-align: center;
+ border: solid 3px yellow;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 90px;
+ width: 100%;  
+  
+}
